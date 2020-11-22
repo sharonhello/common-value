@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="sharon.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="index.html"> Back to store</a>
+        </h1>
+
+
+        <h1>
+            View Cart
+        </h1>
+    </header>
+    <h2 class="item-head">Social Media time</h2>
+    <div id="buy">
+
+        <section class="buy-img">
+
+            <img src="cloud.png" width="100%">
+
+        </section>
+        <section class="buy-descrip">
+            <div class="amount">
+
+                <h3 id="quantity">1</h3>
+                <button>–</button>
+                <button>+</button>
+            </div>
+            <h2>
+                The Cloud
+            </h2>
+            <section class="buy-descrip-para">
+                <p class="a1">A modern digital network used to connect one human to another thru digital means.</p>
+                <p><strong>Dimensions:</strong> various dimensions</p>
+                <p><strong>Color:</strong> black / brown / burnt-umber</p>
+                <p><strong>Use-fullness:</strong> varies</p>
+                <p><strong>Common Value:</strong> Must have</p>
+                <h2 id=price>$ 0.09</h2>
+                <br>
+                <br>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="shzhong@bu.edu">
+                    <input type="hidden" name="lc" value="US">
+                    <input type="hidden" name="button_subtype" value="services">
+                    <input type="hidden" name="no_note" value="0">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+                    <table>
+                        <tr>
+                            <td><input type="hidden" name="on0" value="Sizes">Sizes</td>
+                        </tr>
+                        <tr>
+                            <td><select name="os0">
+                                    <option value="SMALL">SMALL </option>
+                                    <option value="MEDIUM">MEDIUM </option>
+                                    <option value="LARGE">LARGE </option>
+                                </select> </td>
+                        </tr>
+                    </table>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0"
+                        name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+                        height="1">
+                </form>
+            </section>
+        </section>
+    </div>
+
+
+
+</body>
+
+</html>
